@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="2dp"
+    android:elevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/title_icon"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_shop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:text="Store name"
+            android:layout_toRightOf="@id/title_icon"
+            android:fontFamily="@font/roboto_medium"
+            android:textStyle="bold"
+            android:id="@+id/store_name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#474747"
+            android:layout_below="@+id/store_name"
+            android:layout_toRightOf="@id/title_icon"
+            android:id="@+id/store_address"
+            android:text="69, Avenue Street, Washington"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type"
+            android:layout_toRightOf="@id/title_icon"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:id="@+id/store_type"
+            android:layout_below="@id/store_address"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textColor="#323131"
+            android:text="Peak Time"
+            android:textStyle="bold"
+            android:id="@+id/store_peak"
+            android:fontFamily="@font/roboto_medium"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="25dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_shop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textStyle="bold"
+        android:lineHeight="22sp"
+        android:text="Holla!"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="28sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:textStyle="bold"
+        android:lineHeight="30sp"
+        android:text="Add a store"
+        android:textColor="#595858"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="@font/roboto_medium"
+        android:textSize="14sp"
+        android:text="Please enter the required fields\nin order to proceed."/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Store Name"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@color/colorPrimaryDark"
+        app:hintTextColor="@color/colorPrimaryDark">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#E6E4E4"
+            android:id="@+id/email_input"
+            android:fontFamily="@font/roboto_medium"
+            android:backgroundTint="@color/colorPrimaryDark"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Store Address"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/colorPrimaryDark"
+        app:hintTextColor="@color/colorPrimaryDark">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#E6E4E4"
+            android:id="@+id/Role"
+            android:fontFamily="@font/roboto_medium"
+            android:backgroundTint="@color/colorPrimaryDark"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Store Type"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/colorPrimaryDark"
+        app:hintTextColor="@color/colorPrimaryDark">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#E6E4E4"
+            android:id="@+id/phone"
+            android:fontFamily="@font/roboto_medium"
+            android:backgroundTint="@color/colorPrimaryDark"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Peak Time of Store"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/colorPrimaryDark"
+        app:hintTextColor="@color/colorPrimaryDark">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#E6E4E4"
+            android:id="@+id/peak_time"
+            android:fontFamily="@font/roboto_medium"
+            android:backgroundTint="@color/colorPrimaryDark"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/white"
+        android:text="Add Store"
+        android:textSize="22sp"
+        android:textAllCaps="false"
+        android:id="@+id/add_btn"
+        android:fontFamily="@font/roboto_medium"
+        android:background="@drawable/button_back"/>
+
+</LinearLayout>
