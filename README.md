@@ -18,16 +18,13 @@ Our app is an attempt at crowd-control in small and medium sized stores and maki
 - Store owners can constantly update the stores peak times so as to avoid forming a crowd at the store.
 
 ## Technologies Used:
-- Android: 
+Android: 
     -Kotlin 
     -Android Studio
--Backend: (check branch Backend)
+Backend: (check branch Backend)
     -Python
     -Django
     -Django-REST-Framework
-First list item
-     - First nested list item
-       - Second nested list item
 
 ## Team:
 - <a href="https://github.com/Ishan-001">Ishan Khandelwal</a>
