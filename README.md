@@ -25,6 +25,9 @@ Our app is an attempt at crowd-control in small and medium sized stores and maki
     -Python
     -Django
     -Django-REST-Framework
+First list item
+     - First nested list item
+       - Second nested list item
 
 ## Team:
 - <a href="https://github.com/Ishan-001">Ishan Khandelwal</a>
