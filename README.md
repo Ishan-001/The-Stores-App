@@ -1,4 +1,4 @@
-# StoreHopper
+# The Covid Stores
   
 [![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](https://documenter.getpostman.com/view/11088003/TVCh1TUK#f5ded67c-2d05-4173-ae75-a16bd46834fa) 
 
@@ -26,4 +26,4 @@ Our app is an attempt at crowd-control in small and medium sized stores and maki
 
 ## Team:
 - <a href="https://github.com/Ishan-001">Ishan Khandelwal</a>
-- <a href="https://github.com/hpb1">Hari Prashant</a>
+- <a href="https://github.com/hpb1">Aakar Gupta</a>
