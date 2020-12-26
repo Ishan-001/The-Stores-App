@@ -21,7 +21,6 @@ Our app is an attempt at crowd-control in small and medium sized stores and maki
      - Android Studio
 - Backend:
      - Python
-     - Django
      - Django-REST-Framework
 
 ## Team:
