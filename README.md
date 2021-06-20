@@ -23,6 +23,3 @@ Our app is an attempt at crowd-control in small and medium sized stores and maki
      - Python
      - Django-REST-Framework
 
-## Team:
-- <a href="https://github.com/Ishan-001">Ishan Khandelwal</a>
-- <a href="https://github.com/hpb1">Aakar Gupta</a>
